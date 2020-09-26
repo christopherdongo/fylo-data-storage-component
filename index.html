@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+  
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 15px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="row">
+    <div class="container">
+      <div class="containerFylo">
+          <div class="Fylo">
+            <div class="logo">
+              <img src="./images/logo.svg" alt="icon_logo"/>
+            </div>
+            <div class="container-icon">
+              <div>
+                <img src="./images/icon-document.svg"/>
+              </div>
+              <div>
+                <img src="./images/icon-folder.svg"/>
+              </div>
+              <div>
+                <img src="./images/icon-upload.svg"/>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="containerStorage">
+        <div class="Storage">
+           <h1>You've used <span>815</span> of your storage</h1>
+           <div class="loading">
+              <input type="range" class="Carga" max="1000" min="0" value="815"/>
+             </div>
+           </div>
+           <div>
+             <p>0GB</p>
+             <p></p>
+           </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+  <picture>
+    <img src="./images/bg-desktop.png" class="background-img"/>
+  </picture>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Christopher Dongo Huarancca</a>.
+  </div>
+  
+</body>
+</html>

@@ -2,6 +2,8 @@
 
 ![Design preview for the Fylo data storage component coding challenge](./design/desktop-preview.jpg)
 
+https://fylo-data-storage-component-three-rose.vercel.app/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.

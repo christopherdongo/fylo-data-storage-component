@@ -39,14 +39,22 @@
       </div>
       <div class="containerStorage">
         <div class="Storage">
-           <h1>You've used <span>815</span> of your storage</h1>
-           <div class="loading">
-              <input type="range" class="Carga" max="1000" min="0" value="815"/>
+   
+            <h1>You've used <span>815</span> of your storage</h1>
+            <div class="cloud">
+             <div class="container-cloud">
+               <p class="storage-cloud" id="storage-cloud">18<span>5</span></p>
+               <p class="gb-left">GB LEFT</p>
              </div>
-           </div>
-           <div>
-             <p>0GB</p>
-             <p></p>
+            </div>
+       
+           <div class="loading">
+              <input type="range"  max="1000" min="0" value="815" id="range"/>
+             </div>
+             <div class="capacity">
+              <p>0 GB</p>
+              <p>1000 GB</p>
+            </div>
            </div>
         </div>
       </div>
@@ -60,6 +68,8 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Christopher Dongo Huarancca</a>.
   </div>
+
+  <script src="./js/app.js"></script>
   
 </body>
 </html>
